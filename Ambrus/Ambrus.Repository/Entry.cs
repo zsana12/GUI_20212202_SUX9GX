@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ambrus.Repository
 {
-    class Entry
+    public class Entry
     {
+
+        public string Name { get; set; }
+
+        public int Score { get; set; }
+
     }
 }

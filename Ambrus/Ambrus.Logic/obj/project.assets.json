@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Ambrus.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Ambrus.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Ambrus.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus.Repository/Ambrus.Repository.csproj",
+      "msbuildProject": "../Ambrus.Repository/Ambrus.Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Ambrus.Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
