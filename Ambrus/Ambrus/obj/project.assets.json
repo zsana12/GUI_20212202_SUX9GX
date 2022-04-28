@@ -8,12 +8,18 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "C:\\Users\\thoma\\.nuget\\packages\\": {},
+    "D:\\programok\\visual studio shared\\NuGetPackages": {}
+>>>>>>> Logic
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
       "projectName": "Ambrus.Wpf",
       "projectPath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
@@ -25,6 +31,19 @@
       ],
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+      "projectName": "Ambrus.Wpf",
+      "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\programok\\visual studio shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Logic
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +87,11 @@
             "privateAssets": "none"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+>>>>>>> Logic
       }
     }
   }

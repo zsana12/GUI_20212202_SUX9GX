@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj": {}
   },
   "projects": {
@@ -18,6 +19,25 @@
         ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj": {}
+  },
+  "projects": {
+    "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+        "projectName": "Ambrus.Wpf",
+        "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programok\\visual studio shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Logic
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +81,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+>>>>>>> Logic
         }
       }
     }

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj": {}
   },
   "projects": {
@@ -18,20 +19,51 @@
         ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj": {}
+  },
+  "projects": {
+    "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+        "projectName": "Ambrus.Logic",
+        "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programok\\visual studio shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Logic
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "net5.0"
+=======
+          "net5.0-windows7.0"
+>>>>>>> Logic
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+=======
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
+                "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,8 +73,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +90,142 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj",
+        "projectName": "Ambrus.Model",
+        "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programok\\visual studio shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj": {
+                "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+        "projectName": "Ambrus.Wpf",
+        "projectPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programok\\visual studio shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+>>>>>>> Logic
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+<<<<<<< HEAD
+        "net5.0": {
+          "targetAlias": "net5.0",
+=======
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+>>>>>>> Logic
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+<<<<<<< HEAD
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+=======
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+>>>>>>> Logic
         }
       }
     }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Yxb+PoZ91eSDk6pOR3trPi9AX2Tig5weQlGDwKHB1J2f4Ux+P2zDFf76ldE4HX/keJcKlw6V9qDfGeZAiv0b5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+=======
+  "dgSpecHash": "ckteqnEVr55PGPah0+sILRUJDCusKn9DFNoJiLxAx9xVhZ8Z9bmffXo2MlXz4BdsOcLLIhA6y5RK0kFl7ZIshA==",
+  "success": true,
+  "projectFilePath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+>>>>>>> Logic
   "expectedPackageFiles": [],
   "logs": []
 }
