@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\university\prog4\game\GUI_20212202_SUX9GX-Model\GUI_20212202_SUX9GX-Model\Ambrus\Ambrus\obj\Debug\net5.0-windows\
+=======
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus\obj\Debug\net5.0-windows\
+>>>>>>> main
 Ambrus.Wpf
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+<<<<<<< HEAD
 D:\university\prog4\game\GUI_20212202_SUX9GX-Model\GUI_20212202_SUX9GX-Model\Ambrus\Ambrus\App.xaml
+=======
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus\App.xaml
+>>>>>>> main
 11407045341
 
 4-2114347821

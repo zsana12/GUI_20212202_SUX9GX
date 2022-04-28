@@ -1,8 +1,24 @@
+<<<<<<< HEAD
 {
   "version": 2,
+  "dgSpecHash": "kr7cO71wM0kyKSQuBYHwUrMJAXu2HcQyDwbN+jnCVIMweXhjue7QNk3eg6UQH/k9xajfLMq7G0Uw3g6QU6MSKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+=======
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "NxjMGMtstfSMBTKZTiSFR8YtJGsuBNTA3FhzuSIn44TcPfTrYgwdoyHLNPstm2uKJ+fYRGH196Efr0qPH/3K6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+=======
   "dgSpecHash": "VULqa9xsTZQDfpGMExILagd12dtBL4XQknHtnMPxYoA2yXdeNYLwP0svbluqPGzYt0cwBhzuHo7Cwq6ahxgOrQ==",
   "success": true,
   "projectFilePath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+>>>>>>> Logic
   "expectedPackageFiles": [],
   "logs": []
+>>>>>>> main
 }
