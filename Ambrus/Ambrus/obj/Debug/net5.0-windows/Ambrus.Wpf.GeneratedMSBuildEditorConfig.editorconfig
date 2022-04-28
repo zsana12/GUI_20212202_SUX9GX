@@ -1,31 +1,10 @@
-<<<<<<< HEAD
 is_global = true
 build_property.TargetFramework = net5.0-windows
 build_property.TargetPlatformMinVersion = 7.0
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
-build_property.PublishSingleFile = 
-build_property.IncludeAllContentForSelfExtract = 
-build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = Ambrus.Wpf
-build_property.ProjectDir = C:\Users\User\Documents\GitHub\a\GUI_20212202_SUX9GX\Ambrus\Ambrus\
-=======
-is_global = true
-build_property.TargetFramework = net5.0-windows
-build_property.TargetPlatformMinVersion = 7.0
-build_property.UsingMicrosoftNETSdkWeb = 
-build_property.ProjectTypeGuids = 
-<<<<<<< HEAD
-build_property.PublishSingleFile = 
-build_property.IncludeAllContentForSelfExtract = 
-build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = Ambrus.Wpf
-build_property.ProjectDir = C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus\
-=======
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ambrus.Wpf
-build_property.ProjectDir = D:\university\prog4\game\GUI_20212202_SUX9GX-Logic\GUI_20212202_SUX9GX-Logic\Ambrus\Ambrus\
->>>>>>> Logic
->>>>>>> main
+build_property.ProjectDir = D:\szar4\GUI_20212202_SUX9GX\Ambrus\Ambrus\
