@@ -1,11 +1,27 @@
+<<<<<<< HEAD
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\Ambrus.Repository\Ambrus.Repository.csproj" />
   </ItemGroup>
 
+=======
+=======
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ambrus.Model\Ambrus.Model.csproj" />
+  </ItemGroup>
+
+>>>>>>> Logic
+>>>>>>> main
 </Project>
