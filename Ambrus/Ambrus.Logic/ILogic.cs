@@ -47,4 +47,3 @@ namespace Ambrus.Logic
         void PlayerShoot();
     }
 }
-

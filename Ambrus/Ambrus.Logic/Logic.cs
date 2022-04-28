@@ -6,7 +6,7 @@ using Ambrus.Model.Interfaces;
 
 namespace Ambrus.Logic
 {
-    
+
 
     /// <summary>
     /// Logic implements the logic interface. It creates the level, adds the play and sets up the waves of enemies.

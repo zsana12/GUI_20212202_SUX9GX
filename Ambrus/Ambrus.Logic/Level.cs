@@ -8,7 +8,7 @@ using Ambrus.Model.Interfaces;
 
 namespace Ambrus.Logic
 {
-    
+
 
     /// <summary>
     /// Level class stores, controls and updates game entities.

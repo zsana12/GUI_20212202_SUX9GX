@@ -5,7 +5,7 @@ using Ambrus.Model.Entities;
 
 namespace Ambrus.Logic
 {
-    
+
 
     /// <summary>
     /// Updates the position of entities based on their movement direction and checks collisions.

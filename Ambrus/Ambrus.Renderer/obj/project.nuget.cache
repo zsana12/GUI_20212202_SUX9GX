@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TR81nfjc3aak4PC4LOsed4Wo/bLUdKXp/EJpFqtAQl4lBkSzOa3CWtMfge1xdKFi8V6Uw+1/vo5YrLNcII9mrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
@@ -12,4 +13,11 @@
       "message": "Problem reading the cache file C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
     }
   ]
+=======
+  "dgSpecHash": "n4xp3dXXmBihtXNgaMVO6dzsNe9aEz6F3xq7zzYtUZXQgDpwjxip1UN+wslo1P+cLJEFsHhFaUrd5LMVllB5IA==",
+  "success": true,
+  "projectFilePath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> main
 }
