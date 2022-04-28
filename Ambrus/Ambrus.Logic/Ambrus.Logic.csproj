@@ -5,6 +5,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
+  <ItemGroup>
+    <ProjectReference Include="..\Ambrus.Repository\Ambrus.Repository.csproj" />
+  </ItemGroup>
+
+=======
 =======
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
@@ -17,4 +23,5 @@
   </ItemGroup>
 
 >>>>>>> Logic
+>>>>>>> main
 </Project>

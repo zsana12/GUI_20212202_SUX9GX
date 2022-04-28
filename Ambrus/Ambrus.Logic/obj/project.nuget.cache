@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+{
+  "version": 2,
+  "dgSpecHash": "7rZiTD86oSdSB27j6vZzA/qwxgl5Pj06zr9l837/DboiqEObaMAdTIbKzmcArRz3nyzGhmdYd2L4URbTg/Nfrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+=======
 {
   "version": 2,
 <<<<<<< HEAD
@@ -11,4 +20,5 @@
 >>>>>>> Logic
   "expectedPackageFiles": [],
   "logs": []
+>>>>>>> main
 }

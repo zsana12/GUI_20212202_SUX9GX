@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+﻿Ambrus.Wpf
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\User\Documents\GitHub\a\GUI_20212202_SUX9GX\Ambrus\Ambrus\obj\Debug\net5.0-windows\
+Ambrus.Wpf
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+C:\Users\User\Documents\GitHub\a\GUI_20212202_SUX9GX\Ambrus\Ambrus\App.xaml
+11407045341
+
+6-1342957845
+193-1891726104
+MainWindow.xaml;
+
+False
+
+=======
 ﻿Ambrus.Wpf
 1.0.0.0
 
@@ -26,3 +48,4 @@ MainWindow.xaml;
 
 False
 
+>>>>>>> main

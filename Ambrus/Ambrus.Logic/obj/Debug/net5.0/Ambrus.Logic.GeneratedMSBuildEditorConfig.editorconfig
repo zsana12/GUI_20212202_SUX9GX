@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Ambrus.Logic
+build_property.ProjectDir = C:\Users\User\Documents\GitHub\a\GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\
+=======
 is_global = true
 build_property.TargetFramework = net5.0
 build_property.TargetPlatformMinVersion = 
@@ -16,3 +28,4 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ambrus.Logic
 build_property.ProjectDir = D:\university\prog4\game\GUI_20212202_SUX9GX-Model\GUI_20212202_SUX9GX-Model\Ambrus\Ambrus.Logic\
 >>>>>>> Logic
+>>>>>>> main
