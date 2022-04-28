@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUszvVGM9mOkoLyrYpoGro+2SvBMsfmHwqjVWLvcSSkSLx0NEyF/fL2O8bKtLXQhINrTa/dwIVSvtHwadljdmQ==",
+  "dgSpecHash": "ahHQHkHOsQF08IQUV6JUjjD0fbeu/cQBjABwYTz8JDY/HLPdiFpdvpGw4hYLMpu7zYl7e+DhL0DVwYMoHpenXw==",
   "success": true,
-  "projectFilePath": "D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+  "projectFilePath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  "logs": []
 }

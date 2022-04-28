@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {}
+    "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {}
   },
   "projects": {
-    "D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {
+    "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+        "projectUniqueName": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
         "projectName": "Ambrus.Renderer",
-        "projectPath": "D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+        "projectPath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
         "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-        "outputPath": "D:\\szar2\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\obj\\",
+        "outputPath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\programok\\visual studio shared\\NuGetPackages"
