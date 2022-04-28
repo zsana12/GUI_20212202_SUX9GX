@@ -1,11 +1,51 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0-windows7.0": {
+      "Ambrus.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Ambrus.Wpf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ambrus.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Model.dll": {}
+        }
+      },
+      "Ambrus.Wpf/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Ambrus.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Ambrus.Model/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus.Model/Ambrus.Model.csproj",
+      "msbuildProject": "../Ambrus.Model/Ambrus.Model.csproj"
+    },
+    "Ambrus.Wpf/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus/Ambrus.Wpf.csproj",
+      "msbuildProject": "../Ambrus/Ambrus.Wpf.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0-windows7.0": [
+      "Ambrus.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\thoma\\.nuget\\packages\\": {},
@@ -29,16 +69,20 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "projectReferences": {}
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
+              "projectPath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -48,8 +92,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
         "imports": [
           "net461",
           "net462",
