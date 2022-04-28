@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "LN8fZEVOgHWcLz5n7U69brsvurfmE+j7XLvAmSv3A1pK5ko916w6zmdCWj0pcHNEjIJOTWfKRb8ymByHj5p7KA==",
@@ -5,4 +6,19 @@
   "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "TR81nfjc3aak4PC4LOsed4Wo/bLUdKXp/EJpFqtAQl4lBkSzOa3CWtMfge1xdKFi8V6Uw+1/vo5YrLNcII9mrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+=======
+  "dgSpecHash": "vlFMt/KHmrKAraxzoqJCcABNNgelXRjHBSMQlAHTS32567byoJzmY/GJAEzuv6rUOrPZ9e8aOaL4WHV19ITSgg==",
+  "success": true,
+  "projectFilePath": "D:\\university\\prog4\\game\\GUI_20212202_SUX9GX-Logic\\GUI_20212202_SUX9GX-Logic\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+>>>>>>> Logic
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> main
 }
