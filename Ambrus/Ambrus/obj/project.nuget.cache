@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "NxjMGMtstfSMBTKZTiSFR8YtJGsuBNTA3FhzuSIn44TcPfTrYgwdoyHLNPstm2uKJ+fYRGH196Efr0qPH/3K6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
@@ -10,14 +9,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+      "message": "Problem reading the cache file C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
-=======
-  "dgSpecHash": "P+oa9KCI2HMLfaEEkKobaC/tuzOmOGR67HMhZ1KR4m8oXIcTlTSXLcig0eVpDis0wEY6sF8BY2LhAO+C9QCiyQ==",
-  "success": true,
-  "projectFilePath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
->>>>>>> main
 }
