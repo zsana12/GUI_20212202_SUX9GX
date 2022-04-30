@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NxjMGMtstfSMBTKZTiSFR8YtJGsuBNTA3FhzuSIn44TcPfTrYgwdoyHLNPstm2uKJ+fYRGH196Efr0qPH/3K6A==",
+  "dgSpecHash": "rEAfMMrfmFTIAfpFkTht7Ch+M1oDTxepCGlJsgg0fcYNQ0j/cr/kRdMtGTSOsZX/4QBVFtcvQyTgr6mop74v6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+  "projectFilePath": "D:\\szar10\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\User\\source\\repos\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
