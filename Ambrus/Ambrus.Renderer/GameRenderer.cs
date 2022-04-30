@@ -10,7 +10,7 @@ using System.Windows.Media.Imaging;
 
 namespace Ambrus.Renderer
 {
-    public class GameRenderer
+    internal class GameRenderer
     {
         //font stuff
         private readonly double fontSize = 15;
@@ -82,5 +82,132 @@ namespace Ambrus.Renderer
             this.hbCrop = new Int32Rect(0, 0, this.healthbar.PixelWidth, this.healthbar.PixelHeight);
             this.hbLocation = new Rect(this.hbPanelOffset.X, this.hbPanelOffset.Y, this.healthbar.PixelWidth, this.healthbar.PixelHeight);
         }
+
+        public void Render(DrawingContext dc, GameState gameState)
+        {
+            if (gameState == GameState.Playing)
+            {
+                this.DrawLevel(dc);
+            }
+            else
+            {
+                this.DrawHighScores(dc);
+            }
+        }
+
+        public void SetPlayerHealthbar(int currentHp, int maxHp)
+        {
+            double r = (double)Math.Max(currentHp, 0) / maxHp;
+            int width = (int)(this.healthbar.PixelWidth * r);
+            this.hbCrop = new Int32Rect(0, 0, width, this.healthbar.PixelHeight);
+            this.hbLocation = new Rect(this.hbPanelOffset.X, this.hbPanelOffset.Y, width, this.healthbar.PixelHeight);
+        }
+
+        public void UpdateScore(int score)
+        {
+            this.scoreText = this.CreateFormattedText(string.Format("Score: {0}", score), this.font, this.fontSize);
+        }
+
+        private void DrawLevel(DrawingContext dc)
+        {
+            // Clear
+            dc.DrawRectangle(Brushes.Black, null, new Rect(0, 0, this.width, this.height));
+            this.DrawBackground(dc, true);
+            this.DrawPanel(dc);
+
+            // Draw entities
+            foreach (var model in this.logic.Models)
+            {
+                var image = this.spriteImages[model.Sprite];
+                dc.DrawImage(image, model.Area);
+            }
+
+            this.DrawScore(dc);
+        }
+
+        private void DrawHighScores(DrawingContext dc)
+        {
+            dc.DrawRectangle(Brushes.Black, null, new Rect(0, 0, this.width, this.height));
+            this.DrawBackground(dc, false);
+
+            int i = 0;
+            foreach (var score in this.Scores)
+            {
+                FormattedText text = this.CreateFormattedText(
+                    string.Format("{0}: {1}", score.Name, score.Score), this.font, this.fontSizeScores);
+
+                double x = (this.width / 2) - (text.Width / 2);
+                dc.DrawText(text, new Point(x, 50 + (2 * i * text.Height)));
+
+                ++i;
+            }
+        }
+
+        private void DrawScore(DrawingContext dc)
+        {
+            double x = (this.width / 2) - (this.scoreText.Width / 2);
+            dc.DrawText(this.scoreText, new Point(x, 20));
+        }
+
+        private void DrawBackground(DrawingContext dc, bool scroll)
+        {
+            if (this.background != null)
+            {
+                if (scroll)
+                {
+                    this.backgroundY = (this.backgroundY + this.backgroundMoveSpeed) % this.background.PixelHeight;
+                }
+
+                if (this.backgroundY == 0)
+                {
+                    dc.DrawImage(this.background, new Rect(0, 0, this.width, this.height));
+                }
+                else
+                {
+                    Int32Rect crop = new Int32Rect(0, this.height - this.backgroundY, this.width, this.backgroundY);
+                    CroppedBitmap cropped = new CroppedBitmap(this.background, crop);
+                    Rect area = new Rect(0, 0, this.width, this.backgroundY);
+                    dc.DrawImage(cropped, area);
+
+                    crop = new Int32Rect(0, 0, this.width, this.height - this.backgroundY);
+                    cropped = new CroppedBitmap(this.background, crop);
+                    area = new Rect(0, this.backgroundY, this.width, this.height - this.backgroundY);
+                    dc.DrawImage(cropped, area);
+                }
+            }
+        }
+
+        private void DrawPanel(DrawingContext dc)
+        {
+            if (this.panel != null)
+            {
+                dc.DrawImage(this.panel, new Rect(0, 0, this.panel.PixelWidth, this.panel.PixelHeight));
+            }
+
+            this.DrawHealthbar(dc);
+        }
+
+        private void DrawHealthbar(DrawingContext dc)
+        {
+            if (this.healthbar != null && this.hbCrop.Width > 0)
+            {
+                CroppedBitmap cropped = new CroppedBitmap(this.healthbar, this.hbCrop);
+                dc.DrawImage(cropped, this.hbLocation);
+            }
+        }
+
+        private FormattedText CreateFormattedText(string text, Typeface font, double fontSize)
+        {
+            return new FormattedText(
+                text,
+                CultureInfo.CurrentCulture,
+                FlowDirection.LeftToRight,
+                font,
+                fontSize,
+                Brushes.White,
+                VisualTreeHelper.GetDpi(this.control).PixelsPerDip);
+        }
+
+
     }
 }
