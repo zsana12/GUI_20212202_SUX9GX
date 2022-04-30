@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+      "projectUniqueName": "D:\\szar10\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
       "projectName": "Ambrus.Wpf",
-      "projectPath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
+      "projectPath": "D:\\szar10\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj",
       "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "D:\\szar6\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\obj\\",
+      "outputPath": "D:\\szar10\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\programok\\visual studio shared\\NuGetPackages"
