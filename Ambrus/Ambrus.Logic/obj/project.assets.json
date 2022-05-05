@@ -10,7 +10,10 @@
         },
         "runtime": {
           "bin/placeholder/Ambrus.Model.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
       }
     }
   },
@@ -33,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+      "projectUniqueName": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
       "projectName": "Ambrus.Logic",
-      "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+      "projectPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
       "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\obj\\",
+      "outputPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\programok\\visual studio shared\\NuGetPackages"
@@ -58,8 +61,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
-              "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
+            "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
+              "projectPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
             }
           }
         }

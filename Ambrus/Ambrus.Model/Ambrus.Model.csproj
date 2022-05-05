@@ -1,5 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
   </PropertyGroup>

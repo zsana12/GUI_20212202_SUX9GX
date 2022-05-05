@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kl/UjvVCmYkbhtR1F2y1QkD3WqrqOcOGNY7d0uVPReQbTB8IyiE858OjKGIVXEz9sHI8Oj6y/sVjC5XwryMIYw==",
+  "dgSpecHash": "erfq8IXcTKS9v/IhIsAfSEXW0Jo0BER9fL7Je5jnETx6y7Ig7EDXkU4D46UeLPulZKLVhehZoZ2u2nMnY/vZjA==",
   "success": true,
-  "projectFilePath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+  "projectFilePath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

@@ -15,7 +15,7 @@ namespace Ambrus.Renderer
     using Ambrus.Logic;
     using Ambrus.Model;
     using Ambrus.Repository;
-    using Windows.UI.Xaml;
+    //using Windows.UI.Xaml;
 
     public class GameControl : FrameworkElement
     {
