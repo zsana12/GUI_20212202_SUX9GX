@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\bin\Debug\net5.0-windows\Ambrus.Repository.deps.json
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\bin\Debug\net5.0-windows\Ambrus.Repository.dll
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\bin\Debug\net5.0-windows\ref\Ambrus.Repository.dll
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\bin\Debug\net5.0-windows\Ambrus.Repository.pdb
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.AssemblyInfo.cs
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.dll
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\ref\Ambrus.Repository.dll
+C:\Users\User\source\repos\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\obj\Debug\net5.0-windows\Ambrus.Repository.pdb
