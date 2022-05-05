@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {}
+    "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {
+    "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+        "projectUniqueName": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
         "projectName": "Ambrus.Repository",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\obj\\",
+        "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\programok\\visual studio shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,7 +8,6 @@
     <ProjectReference Include="..\Ambrus.Logic\Ambrus.Logic.csproj" />
     <ProjectReference Include="..\Ambrus.Model\Ambrus.Model.csproj" />
     <ProjectReference Include="..\Ambrus.Repository\Ambrus.Repository.csproj" />
-    <ProjectReference Include="..\Ambrus\Ambrus.Wpf.csproj" />
   </ItemGroup>
 
 </Project>

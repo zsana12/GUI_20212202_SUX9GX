@@ -18,9 +18,6 @@
       "Ambrus.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Ambrus.Wpf": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Ambrus.Model.dll": {}
         },
@@ -37,19 +34,6 @@
         "runtime": {
           "bin/placeholder/Ambrus.Repository.dll": {}
         }
-      },
-      "Ambrus.Wpf/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Ambrus.Wpf.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ambrus.Wpf.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
       }
     }
   },
@@ -68,39 +52,33 @@
       "type": "project",
       "path": "../Ambrus.Repository/Ambrus.Repository.csproj",
       "msbuildProject": "../Ambrus.Repository/Ambrus.Repository.csproj"
-    },
-    "Ambrus.Wpf/1.0.0": {
-      "type": "project",
-      "path": "../Ambrus/Ambrus.Wpf.csproj",
-      "msbuildProject": "../Ambrus/Ambrus.Wpf.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "Ambrus.Logic >= 1.0.0",
       "Ambrus.Model >= 1.0.0",
-      "Ambrus.Repository >= 1.0.0",
-      "Ambrus.Wpf >= 1.0.0"
+      "Ambrus.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\thoma\\.nuget\\packages\\": {},
+    "D:\\programok\\visual studio shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+      "projectUniqueName": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
       "projectName": "Ambrus.Renderer",
-      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\obj\\",
+      "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\programok\\visual studio shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -115,17 +93,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj"
+            "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj": {
+              "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj"
             },
-            "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
+            "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
+              "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
             },
-            "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj"
-            },
-            "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\a\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus\\Ambrus.Wpf.csproj"
+            "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj": {
+              "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj"
             }
           }
         }
@@ -154,7 +129,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
