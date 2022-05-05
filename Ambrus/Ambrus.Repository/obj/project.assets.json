@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+      "projectUniqueName": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
       "projectName": "Ambrus.Repository",
-      "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+      "projectPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
       "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\obj\\",
+      "outputPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\programok\\visual studio shared\\NuGetPackages"

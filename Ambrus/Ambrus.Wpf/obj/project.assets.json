@@ -2543,11 +2543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+      "projectUniqueName": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
       "projectName": "Ambrus.Wpf",
-      "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+      "projectPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
       "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\obj\\",
+      "outputPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\programok\\visual studio shared\\NuGetPackages"
@@ -2568,8 +2568,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {
-              "projectPath": "D:\\szar16\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj"
+            "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {
+              "projectPath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj"
             }
           }
         }
