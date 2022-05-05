@@ -3,12 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Uno.UI" Version="4.2.6" />
+  </ItemGroup>
 	
   <ItemGroup>
     <ProjectReference Include="..\Ambrus.Logic\Ambrus.Logic.csproj" />
     <ProjectReference Include="..\Ambrus.Model\Ambrus.Model.csproj" />
     <ProjectReference Include="..\Ambrus.Repository\Ambrus.Repository.csproj" />
-    <ProjectReference Include="..\Ambrus\Ambrus.Wpf.csproj" />
   </ItemGroup>
 
 </Project>

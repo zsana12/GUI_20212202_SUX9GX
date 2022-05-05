@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambrus.Wpf", "Ambrus\Ambrus.Wpf.csproj", "{E4980C2D-74BF-4797-BB80-1D11203CFA6E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambrus.Model", "Ambrus.Model\Ambrus.Model.csproj", "{2BCE72C8-9125-4B3E-8961-FA926409A117}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambrus.Repository", "Ambrus.Repository\Ambrus.Repository.csproj", "{885E72A5-BFB3-4061-9999-5A7ACD9181C5}"
@@ -12,9 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambrus.Logic", "Ambrus.Logic\Ambrus.Logic.csproj", "{546DD75E-A2BD-4D13-8CEB-7474FA74B279}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ambrus.Renderer", "Ambrus.Renderer\Ambrus.Renderer.csproj", "{FAC5E808-D31D-4366-928F-882274DB5F88}"
-	ProjectSection(ProjectDependencies) = postProject
-		{E4980C2D-74BF-4797-BB80-1D11203CFA6E} = {E4980C2D-74BF-4797-BB80-1D11203CFA6E}
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambrus.Wpf", "Ambrus.Wpf\Ambrus.Wpf.csproj", "{742F341A-83D5-4714-ADE0-5A360DEEBF66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4980C2D-74BF-4797-BB80-1D11203CFA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4980C2D-74BF-4797-BB80-1D11203CFA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4980C2D-74BF-4797-BB80-1D11203CFA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4980C2D-74BF-4797-BB80-1D11203CFA6E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2BCE72C8-9125-4B3E-8961-FA926409A117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2BCE72C8-9125-4B3E-8961-FA926409A117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BCE72C8-9125-4B3E-8961-FA926409A117}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,6 +35,10 @@ Global
 		{FAC5E808-D31D-4366-928F-882274DB5F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC5E808-D31D-4366-928F-882274DB5F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC5E808-D31D-4366-928F-882274DB5F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742F341A-83D5-4714-ADE0-5A360DEEBF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742F341A-83D5-4714-ADE0-5A360DEEBF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742F341A-83D5-4714-ADE0-5A360DEEBF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742F341A-83D5-4714-ADE0-5A360DEEBF66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
