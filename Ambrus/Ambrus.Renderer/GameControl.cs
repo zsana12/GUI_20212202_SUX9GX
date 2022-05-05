@@ -15,8 +15,9 @@ namespace Ambrus.Renderer
     using Ambrus.Logic;
     using Ambrus.Model;
     using Ambrus.Repository;
+    using Windows.UI.Xaml;
 
-    internal class GameControl : FrameworkElement
+    public class GameControl : FrameworkElement
     {
         private readonly double fps = 60;
 

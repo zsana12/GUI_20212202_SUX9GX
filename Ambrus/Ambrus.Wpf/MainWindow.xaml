@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Ambrus.Wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid x:Name="mainGrid">
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Label Content="Name" Height="25" Margin="5"/>
+        <TextBox x:Name="textName" Height="25" Width="100" Margin="5"/>
+        <Button Content="Start" Height="25" Width="50" Margin="5" Click="Button_Click"/>
+    </StackPanel>
     </Grid>
 </Window>
