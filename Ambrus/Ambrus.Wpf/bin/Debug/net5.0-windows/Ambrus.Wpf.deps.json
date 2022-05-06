@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ambrus.Wpf/1.0.0": {
+        "dependencies": {
+          "Ambrus.Renderer": "1.0.0"
+        },
+        "runtime": {
+          "Ambrus.Wpf.dll": {}
+        }
+      },
+      "Ambrus.Logic/1.0.0": {
+        "dependencies": {
+          "Ambrus.Model": "1.0.0"
+        },
+        "runtime": {
+          "Ambrus.Logic.dll": {}
+        }
+      },
+      "Ambrus.Model/1.0.0": {
+        "runtime": {
+          "Ambrus.Model.dll": {}
+        }
+      },
+      "Ambrus.Renderer/1.0.0": {
+        "dependencies": {
+          "Ambrus.Logic": "1.0.0",
+          "Ambrus.Model": "1.0.0",
+          "Ambrus.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Ambrus.Renderer.dll": {}
+        }
+      },
+      "Ambrus.Repository/1.0.0": {
+        "runtime": {
+          "Ambrus.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ambrus.Wpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambrus.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambrus.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambrus.Renderer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambrus.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

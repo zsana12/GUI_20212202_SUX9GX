@@ -24,7 +24,7 @@ namespace Ambrus.Renderer
         //bitmapimages
         public BitmapImage background = null;
 
-        private readonly Dictionary<SpriteType, BitmapImage> spriteImages;
+        private readonly Dictionary<SpriteType, BitmapImage> spriteImages = new Dictionary<SpriteType, BitmapImage>();
 
         private BitmapImage panel = null;
 
@@ -59,6 +59,7 @@ namespace Ambrus.Renderer
             this.logic = logic;
             this.Scores = scores;
             this.control = control;
+            this.scoreText = this.CreateFormattedText("Score: 0", this.font, this.fontSize);
         }
 
         public void SetBackgroundImage(Uri imagePath)

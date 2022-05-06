@@ -3,38 +3,24 @@ using Ambrus.Model;
 
 namespace Ambrus.Logic
 {
-    /// <summary>
-    /// AI controls an instance of enemy whenver level is updated.
-    /// </summary>
+   
     public class AI
     {
-        /// <summary>
-        /// A constant determining the amount of moves made to one side.
-        /// </summary>
+       
         private static readonly int MoveAmount = 20;
 
-        /// <summary>
-        /// Reference to the enemy object which is controlled by AI.
-        /// </summary>
+       
         private Enemy enemy;
 
-        /// <summary>
-        /// Counter for how many moves have been made.
-        /// </summary>
+      
         private int moves = 0;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="AI"/> class.
-        /// </summary>
-        /// <param name="enemy">The enemy that will be controlled by AI.</param>
         public AI(Enemy enemy)
         {
             this.enemy = enemy;
         }
 
-        /// <summary>
-        /// Update the movement direction of the enemy.
-        /// </summary>
+       
         public void Update()
         {
             if (this.enemy.Strategy == Enemy.StrategyType.Diamond_Left ||

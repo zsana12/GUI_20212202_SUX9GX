@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "vKOGI7g4roj3egi0qZMHIzM3UFEuoXqRBgq1GUISGQ+KhTL8sgMYkWKRNAOa4+suYzfZpfjIZGlc+mXPuXtYNQ==",
   "success": true,
   "projectFilePath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+=======
+  "dgSpecHash": "0PCsiWdypLBCTAbLQnAm98rHCbx7phNiZFAik56Kb9Hul11XUQQqFkOeTQ0tdeh27aqFTSDrXh/tZdIbb6EbhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
+>>>>>>> WPF
   "expectedPackageFiles": [],
   "logs": []
 }

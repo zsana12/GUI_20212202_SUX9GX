@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "UhR1YJk6PCLzDmf5aLvFZBSXzBE8w7v7be2l6/ameQSjiRxp/i5qmcza7Ysd7gvl0hfYEEAugsO18dSRH/Zljw==",
@@ -29,4 +30,13 @@
     "C:\\Users\\thoma\\.nuget\\packages\\uno.ui\\4.2.6\\uno.ui.4.2.6.nupkg.sha512"
   ],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "Jj4jqGGRJPktyqaHsqnc6BycdA1ciC3LQarXEmnaN0sMeQkLBhE9LiSV4hSTgvLNXqk+6+5ODmdbuxWMk+FUgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> WPF
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 3,
   "targets": {
@@ -2605,4 +2606,162 @@
       }
     }
   }
+=======
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "Ambrus.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Ambrus.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ambrus.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Logic.dll": {}
+        }
+      },
+      "Ambrus.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Ambrus.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Model.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Ambrus.Renderer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Ambrus.Logic": "1.0.0",
+          "Ambrus.Model": "1.0.0",
+          "Ambrus.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ambrus.Renderer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Renderer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "Ambrus.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Ambrus.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ambrus.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ambrus.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus.Logic/Ambrus.Logic.csproj",
+      "msbuildProject": "../Ambrus.Logic/Ambrus.Logic.csproj"
+    },
+    "Ambrus.Model/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus.Model/Ambrus.Model.csproj",
+      "msbuildProject": "../Ambrus.Model/Ambrus.Model.csproj"
+    },
+    "Ambrus.Renderer/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus.Renderer/Ambrus.Renderer.csproj",
+      "msbuildProject": "../Ambrus.Renderer/Ambrus.Renderer.csproj"
+    },
+    "Ambrus.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Ambrus.Repository/Ambrus.Repository.csproj",
+      "msbuildProject": "../Ambrus.Repository/Ambrus.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "Ambrus.Renderer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+      "projectName": "Ambrus.Wpf",
+      "projectPath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+>>>>>>> WPF
 }

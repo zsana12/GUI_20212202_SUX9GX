@@ -4,9 +4,9 @@
     <TargetFramework>net5.0-windows</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Uno.UI" Version="4.2.6" />
-  </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+	</ItemGroup>
 	
   <ItemGroup>
     <ProjectReference Include="..\Ambrus.Logic\Ambrus.Logic.csproj" />
