@@ -45,7 +45,7 @@ namespace Ambrus.Model.Entities
 
         public bool IsRigid { get; set; }
 
-        Rect IGameModel.Area => throw new NotImplementedException();
+        //Rect IGameModel.Area => throw new NotImplementedException();
 
         public virtual void Move(Vector dir)
         {

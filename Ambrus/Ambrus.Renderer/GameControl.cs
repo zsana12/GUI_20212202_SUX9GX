@@ -65,13 +65,13 @@ namespace Ambrus.Renderer
             IEnumerable<Entry> scores = this.repository.LoadScores();
 
             this.renderer = new GameRenderer(this.levelWidth, this.levelHeight, this.logic, scores, this);
-            this.renderer.SetBackgroundImage(new Uri(@"pack://application:,,,/Resource/background.jpg", UriKind.Absolute));
-            this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resource/panel.png", UriKind.Absolute));
-            this.renderer.SetHealthbarImage(new Uri(@"pack://application:,,,/Resource/healthbar.png", UriKind.Absolute));
-            this.renderer.SetSpriteImage(SpriteType.Player, new Uri(@"pack://application:,,,/Resource/Ambrus_car.png", UriKind.Absolute));
-            this.renderer.SetSpriteImage(SpriteType.Enemy, new Uri(@"pack://application:,,,/Resource/police.png", UriKind.Absolute));
-            this.renderer.SetSpriteImage(SpriteType.MissilePlayer, new Uri(@"pack://application:,,,/Resource/bullet.png", UriKind.Absolute));
-            this.renderer.SetSpriteImage(SpriteType.MissileEnemy, new Uri(@"pack://application:,,,/Resource/missile_enemy.png", UriKind.Absolute));
+            this.renderer.SetBackgroundImage(new Uri(@"pack://application:,,,/Resources/background.png", UriKind.Absolute));
+            this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resources/panel.png", UriKind.Absolute));
+            this.renderer.SetHealthbarImage(new Uri(@"pack://application:,,,/Resources/healthbar.png", UriKind.Absolute));
+            this.renderer.SetSpriteImage(SpriteType.Player, new Uri(@"pack://application:,,,/Resources/player.png", UriKind.Absolute));
+            this.renderer.SetSpriteImage(SpriteType.Enemy, new Uri(@"pack://application:,,,/Resources/police.png", UriKind.Absolute));
+            this.renderer.SetSpriteImage(SpriteType.MissilePlayer, new Uri(@"pack://application:,,,/Resources/bullet.png", UriKind.Absolute));
+            this.renderer.SetSpriteImage(SpriteType.MissileEnemy, new Uri(@"pack://application:,,,/Resources/enemy_bullet.png", UriKind.Absolute));
 
             Window window = Window.GetWindow(this);
             if (window != null)
