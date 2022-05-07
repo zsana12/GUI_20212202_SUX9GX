@@ -25,12 +25,6 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.0/System.Collections.Immutable.dll": {
-            "assemblyVersion": "1.2.1.0",
-            "fileVersion": "4.6.24816.1"
-          }
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -63,12 +57,6 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.6/System.Linq.dll": {
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "4.6.24705.1"
-          }
         }
       },
       "System.Memory/4.5.2": {},
@@ -114,12 +102,6 @@
       "System.Runtime.InteropServices.WindowsRuntime/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.24705.1"
-          }
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -133,12 +115,6 @@
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Threading.dll": {
-            "assemblyVersion": "4.0.12.0",
-            "fileVersion": "4.6.24705.1"
-          }
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -148,22 +124,8 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "Uno.Diagnostics.Eventing/2.0.1": {
-        "runtime": {
-          "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          }
-        }
-      },
-      "Uno.Foundation.Logging/4.2.6": {
-        "runtime": {
-          "lib/netstandard2.0/Uno.Foundation.Logging.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          }
-        }
-      },
+      "Uno.Diagnostics.Eventing/2.0.1": {},
+      "Uno.Foundation.Logging/4.2.6": {},
       "Uno.SourceGenerationTasks/4.0.2": {},
       "Uno.UI/4.2.6": {
         "dependencies": {
@@ -174,52 +136,6 @@
           "Uno.Diagnostics.Eventing": "2.0.1",
           "Uno.Foundation.Logging": "4.2.6",
           "Uno.SourceGenerationTasks": "4.0.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Uno.Foundation.Logging.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.Foundation.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.Composition.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.Dispatching.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.FluentTheme.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.FluentTheme.v1.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.FluentTheme.v2.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.Toolkit.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.UI.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.Xaml.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          },
-          "lib/netstandard2.0/Uno.dll": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "255.255.255.255"
-          }
         }
       }
     }
