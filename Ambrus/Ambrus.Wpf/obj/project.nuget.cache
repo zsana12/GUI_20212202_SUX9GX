@@ -1,42 +1,15 @@
-<<<<<<< HEAD
 {
   "version": 2,
-  "dgSpecHash": "UhR1YJk6PCLzDmf5aLvFZBSXzBE8w7v7be2l6/ameQSjiRxp/i5qmcza7Ysd7gvl0hfYEEAugsO18dSRH/Zljw==",
+  "dgSpecHash": "6k4bcPITLZulQWtqkBcG6nssp6UHYfCvXWSODkLyOpWmbyh12PZrIdv+H4ndyy80MH+CyVkOe3JtzyzR1Bn9Ow==",
   "success": true,
-  "projectFilePath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.collections.immutable\\1.3.1\\system.collections.immutable.1.3.1.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\uno.diagnostics.eventing\\2.0.1\\uno.diagnostics.eventing.2.0.1.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\uno.foundation.logging\\4.2.6\\uno.foundation.logging.4.2.6.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\uno.sourcegenerationtasks\\4.0.2\\uno.sourcegenerationtasks.4.0.2.nupkg.sha512",
-    "C:\\Users\\thoma\\.nuget\\packages\\uno.ui\\4.2.6\\uno.ui.4.2.6.nupkg.sha512"
-  ],
-  "logs": []
-=======
-{
-  "version": 2,
-  "dgSpecHash": "Jj4jqGGRJPktyqaHsqnc6BycdA1ciC3LQarXEmnaN0sMeQkLBhE9LiSV4hSTgvLNXqk+6+5ODmdbuxWMk+FUgA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\Ambrus.Wpf.csproj",
   "expectedPackageFiles": [],
-  "logs": []
->>>>>>> WPF
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Wpf\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    }
+  ]
 }

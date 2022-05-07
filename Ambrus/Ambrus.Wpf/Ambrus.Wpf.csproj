@@ -11,12 +11,16 @@
     <None Remove="Resources\bullet.png" />
     <None Remove="Resources\enemy_bullet.png" />
     <None Remove="Resources\healthbar.png" />
+    <None Remove="Resources\OPENING.png" />
     <None Remove="Resources\panel.png" />
     <None Remove="Resources\player.png" />
     <None Remove="Resources\police.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Resources\OPENING.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\player.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

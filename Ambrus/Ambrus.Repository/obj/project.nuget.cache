@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "vKOGI7g4roj3egi0qZMHIzM3UFEuoXqRBgq1GUISGQ+KhTL8sgMYkWKRNAOa4+suYzfZpfjIZGlc+mXPuXtYNQ==",
+  "dgSpecHash": "+82m6nq7kIF4GOYe49+S+uZGyr/1PLmCOgkIdpoV1+Lry/eoTxqepdl8ABieGIK2vkPVufc1NRWskykInP/6dA==",
   "success": true,
-  "projectFilePath": "D:\\szar18\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
-=======
-  "dgSpecHash": "0PCsiWdypLBCTAbLQnAm98rHCbx7phNiZFAik56Kb9Hul11XUQQqFkOeTQ0tdeh27aqFTSDrXh/tZdIbb6EbhA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
->>>>>>> WPF
+  "projectFilePath": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\Ambrus.Repository.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Repository\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

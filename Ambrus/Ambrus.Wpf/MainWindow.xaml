@@ -4,13 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="400">
+        Title="MainWindow" Height="300" Width="700">
 
     <Grid x:Name="mainGrid">
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Label Content="Name" Height="25" Margin="5"/>
-            <TextBox x:Name="textName" Height="25" Width="100" Margin="5"/>
-            <Button Content="Start" Height="25" Width="50" Margin="5" Click="Button_Click"/>
-        </StackPanel>
+        <Grid.Background>
+            <ImageBrush ImageSource="\Resources\OPENING.png"/>
+        </Grid.Background>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="textName" FontFamily="Courier New" FontSize="22" Margin="508,38,42,198" Background="Gray" BorderBrush="Black"/>
+        <Button Content="Start" FontFamily="Courier New" BorderBrush="Black" FontSize="22" Margin="569,225,17,10" Click="Button_Click"/>
     </Grid>
 </Window>

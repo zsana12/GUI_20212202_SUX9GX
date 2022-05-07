@@ -13,3 +13,18 @@ C:\Users\User\Desktop\hamar\GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\ne
 C:\Users\User\Desktop\hamar\GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.dll
 C:\Users\User\Desktop\hamar\GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\ref\Ambrus.Logic.dll
 C:\Users\User\Desktop\hamar\GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.pdb
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\bin\Debug\net5.0-windows\Ambrus.Logic.deps.json
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\bin\Debug\net5.0-windows\Ambrus.Logic.dll
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\bin\Debug\net5.0-windows\ref\Ambrus.Logic.dll
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\bin\Debug\net5.0-windows\Ambrus.Logic.pdb
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\bin\Debug\net5.0-windows\Ambrus.Model.dll
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\bin\Debug\net5.0-windows\Ambrus.Model.pdb
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.AssemblyInfo.cs
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.csproj.CopyComplete
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.dll
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\ref\Ambrus.Logic.dll
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Logic\obj\Debug\net5.0-windows\Ambrus.Logic.pdb

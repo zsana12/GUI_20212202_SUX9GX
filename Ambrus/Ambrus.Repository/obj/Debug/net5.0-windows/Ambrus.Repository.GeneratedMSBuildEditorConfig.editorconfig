@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-is_global = true
-build_property.TargetFramework = net5.0-windows
-build_property.TargetPlatformMinVersion = 7.0
-build_property.UsingMicrosoftNETSdkWeb = 
-build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Ambrus.Repository
-build_property.ProjectDir = D:\szar18\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\
-=======
 is_global = true
 build_property.TargetFramework = net5.0-windows
 build_property.TargetPlatformMinVersion = 7.0
@@ -19,5 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Ambrus.Repository
-build_property.ProjectDir = C:\Users\User\Desktop\hamar\GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\
->>>>>>> WPF
+build_property.ProjectDir = C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Repository\
