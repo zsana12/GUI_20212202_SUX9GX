@@ -19,7 +19,7 @@ namespace Ambrus.Model
         {
             this.centerFront = new System.Windows.Point(area.X + (area.Width / 2), area.Bottom);
             this.Strategy = strategy;
-            this.ReloadDuration = 35;
+            this.ReloadDuration = 55;
             this.ReloadTime = 0;
             this.MoveSpeed = 2;
 

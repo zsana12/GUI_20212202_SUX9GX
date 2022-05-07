@@ -7,7 +7,7 @@ namespace Ambrus.Logic
     public class AI
     {
        
-        private static readonly int MoveAmount = 20;
+        private static readonly int MoveAmount = 10;
 
        
         private Enemy enemy;

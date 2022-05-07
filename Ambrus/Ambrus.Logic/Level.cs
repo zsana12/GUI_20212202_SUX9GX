@@ -11,13 +11,13 @@ namespace Ambrus.Logic
     public class Level : IVisitor
     {
       
-        public static readonly int PlayerMaxHP = 5;
+        public static readonly int PlayerMaxHP = 7;
 
        
-        private const int EnemyHP = 1;
+        private const int EnemyHP = 2;
 
        
-        private readonly int playerMoveSpeed = 5;
+        private readonly int playerMoveSpeed = 4;
 
         private Action<int, int> playerHit;
 

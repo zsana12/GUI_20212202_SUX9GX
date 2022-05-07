@@ -5,12 +5,28 @@
     <Score>7</Score>
   </Entry>
   <Entry>
+    <Name>ee</Name>
+    <Score>7</Score>
+  </Entry>
+  <Entry>
     <Name>Petra</Name>
     <Score>6</Score>
   </Entry>
   <Entry>
+    <Name>e</Name>
+    <Score>5</Score>
+  </Entry>
+  <Entry>
     <Name>h</Name>
     <Score>5</Score>
+  </Entry>
+  <Entry>
+    <Name>h</Name>
+    <Score>5</Score>
+  </Entry>
+  <Entry>
+    <Name>gg</Name>
+    <Score>4</Score>
   </Entry>
   <Entry>
     <Name>Petra</Name>
@@ -21,7 +37,11 @@
     <Score>3</Score>
   </Entry>
   <Entry>
-    <Name>h</Name>
+    <Name>Petra</Name>
+    <Score>3</Score>
+  </Entry>
+  <Entry>
+    <Name>Petra</Name>
     <Score>3</Score>
   </Entry>
   <Entry>
@@ -29,11 +49,7 @@
     <Score>3</Score>
   </Entry>
   <Entry>
-    <Name>Petra</Name>
-    <Score>3</Score>
-  </Entry>
-  <Entry>
-    <Name>Petra</Name>
+    <Name>h</Name>
     <Score>3</Score>
   </Entry>
   <Entry>
@@ -41,31 +57,35 @@
     <Score>3</Score>
   </Entry>
   <Entry>
+    <Name>Petra</Name>
+    <Score>2</Score>
+  </Entry>
+  <Entry>
     <Name>Paraj</Name>
     <Score>2</Score>
   </Entry>
   <Entry>
-    <Name>Petra</Name>
+    <Name>h</Name>
     <Score>2</Score>
-  </Entry>
-  <Entry>
-    <Name>Petra</Name>
-    <Score>1</Score>
   </Entry>
   <Entry>
     <Name>ee</Name>
     <Score>1</Score>
   </Entry>
   <Entry>
+    <Name>Petra</Name>
+    <Score>1</Score>
+  </Entry>
+  <Entry>
+    <Name>Petra</Name>
+    <Score>0</Score>
+  </Entry>
+  <Entry>
+    <Name>Petra</Name>
+    <Score>0</Score>
+  </Entry>
+  <Entry>
     <Name>e</Name>
-    <Score>0</Score>
-  </Entry>
-  <Entry>
-    <Name>Petra</Name>
-    <Score>0</Score>
-  </Entry>
-  <Entry>
-    <Name>Petra</Name>
     <Score>0</Score>
   </Entry>
 </ArrayOfEntry>
