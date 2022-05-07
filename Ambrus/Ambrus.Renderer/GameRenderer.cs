@@ -19,7 +19,7 @@ namespace Ambrus.Renderer
 
         private FormattedText scoreText;
 
-        private Typeface font = new Typeface("Arial");
+        private Typeface font = new Typeface("Courier New");
 
         //bitmapimages
         public BitmapImage background = null;
@@ -29,6 +29,8 @@ namespace Ambrus.Renderer
         private BitmapImage panel = null;
 
         private BitmapImage healthbar = null;
+
+        private BitmapImage clock = null;
 
         //background moving
         private readonly int backgroundMoveSpeed = 1;
@@ -82,6 +84,11 @@ namespace Ambrus.Renderer
             this.healthbar = new BitmapImage(imagePath);
             this.hbCrop = new Int32Rect(0, 0, this.healthbar.PixelWidth, this.healthbar.PixelHeight);
             this.hbLocation = new Rect(this.hbPanelOffset.X, this.hbPanelOffset.Y, this.healthbar.PixelWidth, this.healthbar.PixelHeight);
+        }
+
+        public void SetClockImage(Uri imagePath)
+        {
+            this.clock = new BitmapImage(imagePath);
         }
 
         public void Render(DrawingContext dc, GameState gameState)
@@ -188,7 +195,17 @@ namespace Ambrus.Renderer
             this.DrawHealthbar(dc);
         }
 
-        private void DrawHealthbar(DrawingContext dc)
+        private void DrawClock(DrawingContext dc)
+        {
+            if (this.panel != null)
+            {
+                dc.DrawImage(this.panel, new Rect(0, 0, this.panel.PixelWidth, this.panel.PixelHeight));
+            }
+
+            this.DrawHealthbar(dc);
+        }
+
+            private void DrawHealthbar(DrawingContext dc)
         {
             if (this.healthbar != null && this.hbCrop.Width > 0)
             {

@@ -19,7 +19,7 @@ namespace Ambrus.Renderer
 
     public class GameControl : FrameworkElement
     {
-        private readonly double fps = 60;
+        private readonly double fps = 45;
 
         private readonly int levelWidth = 800;
 
@@ -66,12 +66,13 @@ namespace Ambrus.Renderer
 
             this.renderer = new GameRenderer(this.levelWidth, this.levelHeight, this.logic, scores, this);
             this.renderer.SetBackgroundImage(new Uri(@"pack://application:,,,/Resources/background.png", UriKind.Absolute));
-            this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resources/panel.png", UriKind.Absolute));
+            //this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resources/panel.png", UriKind.Absolute));
             this.renderer.SetHealthbarImage(new Uri(@"pack://application:,,,/Resources/healthbar.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.Player, new Uri(@"pack://application:,,,/Resources/player.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.Enemy, new Uri(@"pack://application:,,,/Resources/police.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.MissilePlayer, new Uri(@"pack://application:,,,/Resources/bullet.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.MissileEnemy, new Uri(@"pack://application:,,,/Resources/enemy_bullet.png", UriKind.Absolute));
+            this.renderer.SetClockImage(new Uri(@"pack://application:,,,/Resources/clock.png", UriKind.Absolute));
 
             Window window = Window.GetWindow(this);
             if (window != null)

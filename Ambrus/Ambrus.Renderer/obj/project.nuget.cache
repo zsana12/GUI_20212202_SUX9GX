@@ -4,12 +4,5 @@
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\Ambrus.Renderer.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Renderer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

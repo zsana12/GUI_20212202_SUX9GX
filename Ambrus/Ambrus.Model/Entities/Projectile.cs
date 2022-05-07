@@ -21,11 +21,11 @@ namespace Ambrus.Model
 
             if (team == Enums.Team.Player)
             {
-                Size = new System.Windows.Size(20, 39);
+                Size = new System.Windows.Size(17, 33);
             }
             else
             {
-                Size = new System.Windows.Size(20, 56);
+                Size = new System.Windows.Size(13, 33);
             }
 
             this.MoveSpeed = 8;

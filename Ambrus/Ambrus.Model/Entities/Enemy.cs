@@ -52,7 +52,7 @@ namespace Ambrus.Model
 
         public static System.Windows.Size Size
         {
-            get { return new System.Windows.Size(145, 87); }
+            get { return new System.Windows.Size(100, 130); }
         }
 
 

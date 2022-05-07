@@ -14,7 +14,7 @@ namespace Ambrus.Model
 {
     public class Player : GameEntity, IVisitable
     {
-        public static readonly Size Size = new Size(113, 116);
+        public static readonly Size Size = new Size(100, 130);
 
         private Action<int> playerHit;
 

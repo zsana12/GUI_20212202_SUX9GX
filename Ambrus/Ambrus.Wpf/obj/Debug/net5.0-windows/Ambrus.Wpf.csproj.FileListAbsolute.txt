@@ -74,3 +74,4 @@ C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9G
 C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Wpf\obj\Debug\net5.0-windows\Ambrus.Wpf.pdb
 C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Wpf\obj\Debug\net5.0-windows\Ambrus.Wpf.genruntimeconfig.cache
 C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Wpf\bin\Debug\net5.0-windows\Resources\OPENING.png
+C:\Users\User\Desktop\OE NIK 2021222\PROG4\Ambrus_féléves\2_GUI_20212202_SUX9GX\Ambrus\Ambrus.Wpf\bin\Debug\net5.0-windows\Resources\clock.png

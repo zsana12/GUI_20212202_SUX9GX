@@ -27,8 +27,8 @@ namespace Ambrus.Logic
         {
             this.level = new Level(levelWidth, levelHeight, this.OnPlayerHit, this.OnScoreChanged);
             this.level.AddPlayer(new Point(
-                (levelWidth / 2) - (Player.Size.Width / 2),
-                levelHeight - 25 - Player.Size.Height));
+                (levelWidth / 4) - (Player.Size.Width / 4),
+                levelHeight - 30 - Player.Size.Height));
             this.level.EnemiesCleared += this.PrepareNextRound;
         }
 
@@ -98,14 +98,14 @@ namespace Ambrus.Logic
         {
             if (this.round % 2 == 0)
             {
-                this.level.AddEnemy(new Point((this.level.Width / 2) - (Enemy.Size.Width / 2), 100), Enemy.StrategyType.Diamond_Right);
+                this.level.AddEnemy(new Point((this.level.Width / 2) - (Enemy.Size.Width / 4), 100), Enemy.StrategyType.Diamond_Right);
                 this.level.AddEnemy(new Point(100, 25), Enemy.StrategyType.Right_Left);
                 this.level.AddEnemy(new Point(this.level.Width - Enemy.Size.Width - 100, 25), Enemy.StrategyType.Left_Right);
             }
             else
             {
-                this.level.AddEnemy(new Point((this.level.Width / 2) - (Enemy.Size.Width / 2) - Enemy.Size.Width, 200), Enemy.StrategyType.Diamond_Right);
-                this.level.AddEnemy(new Point((this.level.Width / 2) - (Enemy.Size.Width / 2) + Enemy.Size.Width, 200), Enemy.StrategyType.Diamond_Left);
+                this.level.AddEnemy(new Point((this.level.Width / 2) - (Enemy.Size.Width / 4) - Enemy.Size.Width, 200), Enemy.StrategyType.Diamond_Right);
+                this.level.AddEnemy(new Point((this.level.Width / 2) - (Enemy.Size.Width / 4) + Enemy.Size.Width, 200), Enemy.StrategyType.Diamond_Left);
             }
 
             ++this.round;
