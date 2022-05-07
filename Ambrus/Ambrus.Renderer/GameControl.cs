@@ -66,7 +66,7 @@ namespace Ambrus.Renderer
 
             this.renderer = new GameRenderer(this.levelWidth, this.levelHeight, this.logic, scores, this);
             this.renderer.SetBackgroundImage(new Uri(@"pack://application:,,,/Resources/background.png", UriKind.Absolute));
-            //this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resources/panel.png", UriKind.Absolute));
+            this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resources/panel.png", UriKind.Absolute));
             this.renderer.SetHealthbarImage(new Uri(@"pack://application:,,,/Resources/healthbar.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.Player, new Uri(@"pack://application:,,,/Resources/player.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.Enemy, new Uri(@"pack://application:,,,/Resources/police.png", UriKind.Absolute));

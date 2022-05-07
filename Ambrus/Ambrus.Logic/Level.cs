@@ -11,7 +11,7 @@ namespace Ambrus.Logic
     public class Level : IVisitor
     {
       
-        public static readonly int PlayerMaxHP = 7;
+        public static readonly int PlayerMaxHP = 5;
 
        
         private const int EnemyHP = 2;
