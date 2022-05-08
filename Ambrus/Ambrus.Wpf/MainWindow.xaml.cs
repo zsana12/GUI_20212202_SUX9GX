@@ -13,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+using Ambrus.Renderer;
 
 namespace Ambrus.Wpf
 {
@@ -20,7 +22,7 @@ namespace Ambrus.Wpf
     public partial class MainWindow : Window
     {        
         private GameControl game = null;
-       
+
         public MainWindow()
         {
             this.InitializeComponent();
@@ -34,6 +36,19 @@ namespace Ambrus.Wpf
             this.game.Height = 800;
             this.mainGrid.Children.Add(this.game);
             this.SizeToContent = SizeToContent.WidthAndHeight;
+
+            DispatcherTimer dt = new DispatcherTimer();
+            dt.Interval = TimeSpan.FromSeconds(1);
+            dt.Tick += Dt_Tick;
+            dt.Start();
+
+        }
+
+        private int increment = 0;
+        private void Dt_Tick(object sender, EventArgs e)
+        {
+            increment++;
+
         }
     }
 }

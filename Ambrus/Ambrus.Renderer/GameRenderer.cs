@@ -7,6 +7,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Threading;
 
 namespace Ambrus.Renderer
 {
@@ -18,6 +19,8 @@ namespace Ambrus.Renderer
         private readonly double fontSizeScores = 30;
 
         private FormattedText scoreText;
+
+        private FormattedText timerText;
 
         private Typeface font = new Typeface("Courier New");
 
@@ -31,7 +34,8 @@ namespace Ambrus.Renderer
         private BitmapImage healthbar = null;
 
         private BitmapImage clock = null;
-
+        
+        private int increment;
         //background moving
         private readonly int backgroundMoveSpeed = 1;
 
@@ -56,14 +60,33 @@ namespace Ambrus.Renderer
 
         public GameRenderer(int width, int height, ILogic logic, IEnumerable<Entry> scores, FrameworkElement control)
         {
+            DispatcherTimer dt = new DispatcherTimer();
+            dt.Interval = TimeSpan.FromSeconds(1);
+            dt.Tick += Dt_Tick;
+            dt.Start();
+
+
+
             this.width = width;
             this.height = height;
             this.logic = logic;
             this.Scores = scores;
             this.control = control;
             this.scoreText = this.CreateFormattedText("Score: 0", this.font, this.fontSize);
+            this.timerText = this.CreateFormattedText("Time: 90", this.font, this.fontSize);
         }
 
+        public int MaxTime = 90;
+
+        private void Dt_Tick(object sender, EventArgs e)
+        {
+            increment++;
+
+            MaxTime--;
+
+            UpdateTimer(MaxTime);
+             
+        }
         public void SetBackgroundImage(Uri imagePath)
         {
             this.background = new BitmapImage(imagePath);
@@ -96,10 +119,17 @@ namespace Ambrus.Renderer
             if (gameState == GameState.Playing)
             {
                 this.DrawLevel(dc);
+
+                if (MaxTime <= 0)
+                {
+
+                    this.DrawHighScores(dc);
+
+                }
             }
             else
             {
-                this.DrawHighScores(dc);
+                System.Environment.Exit(0);
             }
         }
 
@@ -116,6 +146,15 @@ namespace Ambrus.Renderer
             this.scoreText = this.CreateFormattedText(string.Format("Score: {0}", score), this.font, this.fontSize);
         }
 
+        public void UpdateTimer(int time)
+        {
+
+
+                this.timerText = this.CreateFormattedText(string.Format("timer: {0}", time), this.font, this.fontSize);
+
+        }
+
+
         private void DrawLevel(DrawingContext dc)
         {
             // Clear
@@ -130,7 +169,10 @@ namespace Ambrus.Renderer
                 dc.DrawImage(image, model.Area);
             }
 
+
+
             this.DrawScore(dc);
+            this.DrawTimer(dc);
         }
 
         private void DrawHighScores(DrawingContext dc)
@@ -155,6 +197,12 @@ namespace Ambrus.Renderer
         {
             double x = (this.width / 2) - (this.scoreText.Width / 2);
             dc.DrawText(this.scoreText, new Point(x, 20));
+        }
+
+        private void DrawTimer(DrawingContext dc)
+        {
+            double x = (this.width / 3) - (this.timerText.Width / 3);
+            dc.DrawText(this.timerText, new Point(x, 20));
         }
 
         private void DrawBackground(DrawingContext dc, bool scroll)

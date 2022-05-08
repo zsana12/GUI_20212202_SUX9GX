@@ -15,6 +15,7 @@ namespace Ambrus.Renderer
     using Ambrus.Logic;
     using Ambrus.Model;
     using Ambrus.Repository;
+    
     //using Windows.UI.Xaml;
 
     public class GameControl : FrameworkElement
@@ -31,7 +32,7 @@ namespace Ambrus.Renderer
 
         private GameRenderer renderer;
 
-        private DispatcherTimer mainTimer;
+        public DispatcherTimer mainTimer;
 
         private int score = 0;
 
@@ -60,6 +61,7 @@ namespace Ambrus.Renderer
             this.logic = new Logic(this.levelWidth, this.levelHeight);
             this.logic.PlayerHit += this.OnPlayerHit;
             this.logic.ScoreChanged += this.OnScoreChanged;
+            
 
             this.repository = new XmlRepository();
             IEnumerable<Entry> scores = this.repository.LoadScores();
@@ -67,11 +69,12 @@ namespace Ambrus.Renderer
             this.renderer = new GameRenderer(this.levelWidth, this.levelHeight, this.logic, scores, this);
             this.renderer.SetBackgroundImage(new Uri(@"pack://application:,,,/Resources/background.png", UriKind.Absolute));
             this.renderer.SetPanelImage(new Uri(@"pack://application:,,,/Resources/panel.png", UriKind.Absolute));
-            this.renderer.SetHealthbarImage(new Uri(@"pack://application:,,,/Resources/healthbar.png", UriKind.Absolute));
+            
             this.renderer.SetSpriteImage(SpriteType.Player, new Uri(@"pack://application:,,,/Resources/player.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.Enemy, new Uri(@"pack://application:,,,/Resources/police.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.MissilePlayer, new Uri(@"pack://application:,,,/Resources/bullet.png", UriKind.Absolute));
             this.renderer.SetSpriteImage(SpriteType.MissileEnemy, new Uri(@"pack://application:,,,/Resources/enemy_bullet.png", UriKind.Absolute));
+            this.renderer.SetHealthbarImage(new Uri(@"pack://application:,,,/Resources/healthbar.png", UriKind.Absolute));
             this.renderer.SetClockImage(new Uri(@"pack://application:,,,/Resources/clock.png", UriKind.Absolute));
 
             Window window = Window.GetWindow(this);
@@ -80,6 +83,7 @@ namespace Ambrus.Renderer
                 this.mainTimer = new DispatcherTimer();
                 this.mainTimer.Interval = TimeSpan.FromMilliseconds(1000.0 / this.fps);
                 this.mainTimer.Tick += this.Timer_Tick;
+                
                 this.mainTimer.Start();
             }
 
@@ -159,6 +163,7 @@ namespace Ambrus.Renderer
             }
 
             this.InvalidateVisual();
+
         }
     }
 }
