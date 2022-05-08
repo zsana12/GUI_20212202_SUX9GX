@@ -36,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
       "projectName": "Ambrus.Logic",
-      "projectPath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\Ambrus.Logic.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,8 +61,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\hamar\\GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
+            "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\OE NIK 2021222\\PROG4\\Ambrus_féléves\\2_GUI_20212202_SUX9GX\\Ambrus\\Ambrus.Model\\Ambrus.Model.csproj"
             }
           }
         }
@@ -91,7 +91,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
